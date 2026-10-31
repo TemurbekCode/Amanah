@@ -1,0 +1,57 @@
+{
+  "app": { "name": "Amanah", "tagline": "Protect what matters." },
+  "nav": {
+    "home": "Home",
+    "location": "Location",
+    "apps": "Apps",
+    "protection": "Protection",
+    "settings": "Settings",
+    "screenTime": "Screen Time"
+  },
+  "common": {
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "back": "Back",
+    "close": "Close",
+    "retry": "Try again",
+    "loading": "Loading…",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "states": {
+    "demo": "Demo",
+    "comingSoon": "Coming soon",
+    "empty": "Nothing here yet"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "required": "This field is required."
+  },
+  "role": {
+    "title": "Who is using this device?",
+    "subtitle": "Choose how you will use Amanah on this device.",
+    "parent": "Parent / Guardian",
+    "parentDescription": "Manage your family's devices, limits and safety settings.",
+    "child": "Child",
+    "childDescription": "See your protection status and screen time."
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "appearanceDescription": "Choose how Amanah looks on this device.",
+    "language": "Language",
+    "languageDescription": "Choose the language used across the app.",
+    "developer": "Development tools",
+    "switchRole": "Switch role",
+    "switchRoleTitle": "Switch role?",
+    "switchRoleMessage": "You will return to the role selection screen. Your preferences are kept."
+  },
+  "theme": { "light": "Light", "dark": "Dark", "system": "System" },
+  "language": { "en": "English", "uz": "O‘zbekcha" },
+  "placeholder": {
+    "title": "Planned for Phase 2",
+    "description": "This screen is part of the navigation foundation. Its content will be built in the next phase."
+  }
+}

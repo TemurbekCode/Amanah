@@ -1,0 +1,57 @@
+{
+  "app": { "name": "Amanah", "tagline": "Qadrlilaringizni asrang." },
+  "nav": {
+    "home": "Bosh sahifa",
+    "location": "Joylashuv",
+    "apps": "Ilovalar",
+    "protection": "Himoya",
+    "settings": "Sozlamalar",
+    "screenTime": "Ekran vaqti"
+  },
+  "common": {
+    "continue": "Davom etish",
+    "cancel": "Bekor qilish",
+    "confirm": "Tasdiqlash",
+    "save": "Saqlash",
+    "back": "Orqaga",
+    "close": "Yopish",
+    "retry": "Qayta urinish",
+    "loading": "Yuklanmoqda…",
+    "showPassword": "Parolni ko‘rsatish",
+    "hidePassword": "Parolni yashirish"
+  },
+  "states": {
+    "demo": "Demo",
+    "comingSoon": "Tez orada",
+    "empty": "Hozircha hech narsa yo‘q"
+  },
+  "errors": {
+    "generic": "Xatolik yuz berdi. Qaytadan urinib ko‘ring.",
+    "required": "Bu maydonni to‘ldirish shart."
+  },
+  "role": {
+    "title": "Qurilmadan kim foydalanadi?",
+    "subtitle": "Amanah’dan bu qurilmada qaysi rolda foydalanishingizni tanlang.",
+    "parent": "Ota-ona / Vasiy",
+    "parentDescription": "Oilangiz qurilmalari, cheklovlari va xavfsizlik sozlamalarini boshqaring.",
+    "child": "Bola",
+    "childDescription": "Himoya holati va ekran vaqtingizni ko‘ring."
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "appearance": "Ko‘rinish",
+    "appearanceDescription": "Amanah bu qurilmada qanday ko‘rinishini tanlang.",
+    "language": "Til",
+    "languageDescription": "Ilova bo‘ylab ishlatiladigan tilni tanlang.",
+    "developer": "Ishlab chiqish vositalari",
+    "switchRole": "Rolni almashtirish",
+    "switchRoleTitle": "Rolni almashtirasizmi?",
+    "switchRoleMessage": "Rolni tanlash ekraniga qaytasiz. Sozlamalaringiz saqlanib qoladi."
+  },
+  "theme": { "light": "Yorug‘", "dark": "Qorong‘i", "system": "Tizim" },
+  "language": { "en": "English", "uz": "O‘zbekcha" },
+  "placeholder": {
+    "title": "2-bosqichda yaratiladi",
+    "description": "Bu ekran navigatsiya poydevorining bir qismi. Uning mazmuni keyingi bosqichda qo‘shiladi."
+  }
+}
