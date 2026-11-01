@@ -1,5 +1,8 @@
 {
-  "app": { "name": "Amanah", "tagline": "Qadrlilaringizni asrang." },
+  "app": {
+    "name": "Amanah",
+    "tagline": "Qadrlilaringizni asrang."
+  },
   "nav": {
     "home": "Bosh sahifa",
     "location": "Joylashuv",
@@ -27,7 +30,16 @@
   },
   "errors": {
     "generic": "Xatolik yuz berdi. Qaytadan urinib ko‘ring.",
-    "required": "Bu maydonni to‘ldirish shart."
+    "required": "Bu maydonni to‘ldirish shart.",
+    "nameRequired": "To‘liq ismingizni kiriting.",
+    "emailRequired": "Elektron pochta manzilini kiriting.",
+    "emailInvalid": "To‘g‘ri elektron pochta manzilini kiriting.",
+    "passwordRequired": "Parolni kiriting.",
+    "passwordShort": "Kamida 8 ta belgi ishlating.",
+    "passwordWeak": "Parolda harf ham, raqam ham bo‘lsin.",
+    "confirmRequired": "Parolni tasdiqlang.",
+    "confirmMismatch": "Parollar mos kelmadi.",
+    "termsRequired": "Davom etish uchun shartlarni qabul qiling."
   },
   "role": {
     "title": "Qurilmadan kim foydalanadi?",
@@ -48,10 +60,97 @@
     "switchRoleTitle": "Rolni almashtirasizmi?",
     "switchRoleMessage": "Rolni tanlash ekraniga qaytasiz. Sozlamalaringiz saqlanib qoladi."
   },
-  "theme": { "light": "Yorug‘", "dark": "Qorong‘i", "system": "Tizim" },
-  "language": { "en": "English", "uz": "O‘zbekcha" },
+  "theme": {
+    "light": "Yorug‘",
+    "dark": "Qorong‘i",
+    "system": "Tizim"
+  },
+  "language": {
+    "en": "English",
+    "uz": "O‘zbekcha"
+  },
   "placeholder": {
     "title": "2-bosqichda yaratiladi",
     "description": "Bu ekran navigatsiya poydevorining bir qismi. Uning mazmuni keyingi bosqichda qo‘shiladi."
+  },
+  "welcome": {
+    "description": "Oilalar uchun internetda xavfsiz bo‘lish va ekran bilan sog‘lom odatlarni birga shakllantirishning xotirjam va shaffof usuli.",
+    "getStarted": "Boshlash",
+    "haveAccount": "Hisobim bor"
+  },
+  "onboarding": {
+    "skip": "O‘tkazib yuborish",
+    "next": "Keyingisi",
+    "continue": "Davom etish",
+    "step": "{{current}}-qadam, jami {{total}} ta",
+    "slide1Title": "Oilalar ishonadigan himoya",
+    "slide1Body": "Ilovalar, saytlar va ekran vaqti uchun aniq chegaralar belgilang. Har bir qoida butun oilaga ko‘rinib turadi.",
+    "slide2Title": "Ekran bilan sog‘lom odatlar",
+    "slide2Body": "Vaqt qanday sarflanayotganini ko‘ring va maktab, uyqu hamda o‘yin uchun limitlarni birga kelishing.",
+    "slide3Title": "Shaffoflik asosida yaratilgan",
+    "slide3Body": "Bolalar oilasi bilan nimalar ulashilayotganini doim ko‘radi. Amanah hech qachon yashirincha kuzatmaydi."
+  },
+  "languageSetup": {
+    "title": "Tilni tanlang",
+    "subtitle": "Buni keyinroq Sozlamalarda o‘zgartirish mumkin."
+  },
+  "auth": {
+    "createAccountTitle": "Hisob yarating",
+    "createAccountSubtitle": "Amanah’ni oilangiz uchun sozlang.",
+    "fullName": "To‘liq ism",
+    "fullNamePlaceholder": "Ismingiz",
+    "email": "Elektron pochta manzili",
+    "emailPlaceholder": "ism@example.com",
+    "password": "Parol",
+    "confirmPassword": "Parolni tasdiqlang",
+    "newPassword": "Yangi parol",
+    "passwordHint": "Kamida 8 ta belgi, harf va raqamlar bilan.",
+    "passwordStrength": "Parol mustahkamligi",
+    "strength": {
+      "weak": "Zaif",
+      "fair": "O‘rtacha",
+      "strong": "Kuchli"
+    },
+    "acceptTermsLabel": "Foydalanish shartlari va maxfiylik siyosatini qabul qilish",
+    "termsPrefix": "Men ",
+    "termsLink": "Foydalanish shartlari",
+    "termsAnd": " va ",
+    "privacyLink": "Maxfiylik siyosati",
+    "termsSuffix": "ga roziman.",
+    "createAccount": "Hisob yaratish",
+    "haveAccount": "Hisobingiz bormi?",
+    "signIn": "Kirish",
+    "signInTitle": "Qaytib kelganingiz bilan",
+    "signInSubtitle": "Amanah’da davom etish uchun tizimga kiring.",
+    "rememberMe": "Meni eslab qol",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "noAccount": "Amanah’da yangimisiz?",
+    "createLink": "Hisob yaratish",
+    "forgotTitle": "Parolni tiklash",
+    "forgotSubtitle": "Hisobingizga ulangan elektron pochta manzilini kiriting.",
+    "backToSignIn": "Kirishga qaytish",
+    "checkEmailTitle": "Pochtangizni tekshiring",
+    "checkEmailBody": "To‘liq versiyada tiklash havolasi {{email}} manziliga yuboriladi. Bu namunada hech narsa yuborilmadi.",
+    "openReset": "Tiklash ekranini ko‘rish",
+    "resetTitle": "Yangi parol yarating",
+    "resetSubtitle": "Avval ishlatmagan mustahkam parolni tanlang.",
+    "resetButton": "Parolni yangilash",
+    "resetSuccessTitle": "Tiklash namunasi yakunlandi",
+    "resetSuccessBody": "To‘liq versiyada parolingiz hozir yangilanadi. Bu namunada hech narsa o‘zgarmadi.",
+    "continueToSignIn": "Kirishga o‘tish",
+    "previewNotice": "Faqat namuna. Bu versiyada hisob yaratilmaydi va hech qanday ma’lumot yuborilmaydi."
+  },
+  "legal": {
+    "termsTitle": "Foydalanish shartlari",
+    "privacyTitle": "Maxfiylik siyosati",
+    "draftTitle": "Yakuniy matn tez orada",
+    "draftBody": "Rasmiy hujjat Amanah chiqarilishidan oldin e’lon qilinadi."
+  },
+  "status": {
+    "active": "Faol",
+    "needsSetup": "Sozlash kerak",
+    "permissionRequired": "Ruxsat kerak",
+    "notSupported": "Qo‘llab-quvvatlanmaydi",
+    "demo": "Demo"
   }
 }

@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { useTheme } from '@/theme';
@@ -9,7 +9,7 @@ interface Props {
   scroll?: boolean;
 }
 
-/** Safe-area aware, theme-aware screen container. */
+/** Safe-area, keyboard and theme aware screen container. */
 export function Screen({ children, scroll = true }: Props) {
   const { colors, spacing } = useTheme();
   const padding = { padding: spacing.lg, gap: spacing.lg };
@@ -19,17 +19,22 @@ export function Screen({ children, scroll = true }: Props) {
       edges={['top', 'left', 'right']}
       style={[styles.flex, { backgroundColor: colors.background }]}
     >
-      {scroll ? (
-        <ScrollView
-          contentContainerStyle={padding}
-          keyboardShouldPersistTaps="handled"
-          showsVerticalScrollIndicator={false}
-        >
-          {children}
-        </ScrollView>
-      ) : (
-        <View style={[styles.flex, padding]}>{children}</View>
-      )}
+      <KeyboardAvoidingView
+        style={styles.flex}
+        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      >
+        {scroll ? (
+          <ScrollView
+            contentContainerStyle={padding}
+            keyboardShouldPersistTaps="handled"
+            showsVerticalScrollIndicator={false}
+          >
+            {children}
+          </ScrollView>
+        ) : (
+          <View style={[styles.flex, padding]}>{children}</View>
+        )}
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }

@@ -5,6 +5,9 @@ export type ColorTokens = {
   primary: string;
   primaryContrast: string;
   primarySoft: string;
+  /** Deep forest green used for the logo mark and key brand elements. */
+  brand: string;
+  brandSoft: string;
   text: string;
   textSecondary: string;
   border: string;
@@ -20,38 +23,42 @@ export type ColorTokens = {
 };
 
 export const lightColors: ColorTokens = {
-  background: '#F5F7FA',
+  background: '#F6F8F7',
   surface: '#FFFFFF',
   surfaceElevated: '#FFFFFF',
-  primary: '#2563EB',
+  primary: '#047857',
   primaryContrast: '#FFFFFF',
-  primarySoft: '#E8EFFD',
-  text: '#111827',
-  textSecondary: '#64748B',
-  border: '#E2E8F0',
+  primarySoft: '#E3F4EC',
+  brand: '#064E3B',
+  brandSoft: '#E3F1EC',
+  text: '#0F1F1A',
+  textSecondary: '#52645D',
+  border: '#DCE5E1',
   success: '#15803D',
-  successSoft: '#E6F4EA',
+  successSoft: '#E4F5E9',
   warning: '#B45309',
   warningSoft: '#FEF3C7',
   error: '#DC2626',
   errorSoft: '#FDE8E8',
   info: '#0369A1',
   infoSoft: '#E0F2FE',
-  overlay: 'rgba(15, 23, 42, 0.45)',
+  overlay: 'rgba(8, 20, 16, 0.45)',
 };
 
 export const darkColors: ColorTokens = {
-  background: '#0B1220',
-  surface: '#111827',
-  surfaceElevated: '#172033',
-  primary: '#60A5FA',
-  primaryContrast: '#0B1220',
-  primarySoft: '#16233F',
-  text: '#F8FAFC',
-  textSecondary: '#94A3B8',
-  border: '#263244',
+  background: '#0A1210',
+  surface: '#101916',
+  surfaceElevated: '#16221E',
+  primary: '#34D399',
+  primaryContrast: '#04261B',
+  primarySoft: '#12261F',
+  brand: '#047857',
+  brandSoft: '#12261F',
+  text: '#F1F7F4',
+  textSecondary: '#93A89F',
+  border: '#243630',
   success: '#4ADE80',
-  successSoft: '#10281B',
+  successSoft: '#0F2819',
   warning: '#FBBF24',
   warningSoft: '#33260A',
   error: '#F87171',

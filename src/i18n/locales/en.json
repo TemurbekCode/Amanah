@@ -1,5 +1,8 @@
 {
-  "app": { "name": "Amanah", "tagline": "Protect what matters." },
+  "app": {
+    "name": "Amanah",
+    "tagline": "Protect what matters."
+  },
   "nav": {
     "home": "Home",
     "location": "Location",
@@ -27,7 +30,16 @@
   },
   "errors": {
     "generic": "Something went wrong. Please try again.",
-    "required": "This field is required."
+    "required": "This field is required.",
+    "nameRequired": "Enter your full name.",
+    "emailRequired": "Enter your email address.",
+    "emailInvalid": "Enter a valid email address.",
+    "passwordRequired": "Enter your password.",
+    "passwordShort": "Use at least 8 characters.",
+    "passwordWeak": "Include both letters and numbers.",
+    "confirmRequired": "Confirm your password.",
+    "confirmMismatch": "Passwords do not match.",
+    "termsRequired": "Accept the terms to continue."
   },
   "role": {
     "title": "Who is using this device?",
@@ -48,10 +60,97 @@
     "switchRoleTitle": "Switch role?",
     "switchRoleMessage": "You will return to the role selection screen. Your preferences are kept."
   },
-  "theme": { "light": "Light", "dark": "Dark", "system": "System" },
-  "language": { "en": "English", "uz": "O‘zbekcha" },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "uz": "O‘zbekcha"
+  },
   "placeholder": {
     "title": "Planned for Phase 2",
     "description": "This screen is part of the navigation foundation. Its content will be built in the next phase."
+  },
+  "welcome": {
+    "description": "A calm, transparent way for families to stay safe online and build healthy screen habits together.",
+    "getStarted": "Get started",
+    "haveAccount": "I already have an account"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "continue": "Continue",
+    "step": "Step {{current}} of {{total}}",
+    "slide1Title": "Protection families can trust",
+    "slide1Body": "Set clear boundaries for apps, websites and screen time, with every rule visible to the whole family.",
+    "slide2Title": "Healthier screen habits",
+    "slide2Body": "See how time is spent and agree on limits for school, bedtime and play.",
+    "slide3Title": "Transparent by design",
+    "slide3Body": "Children always see what is shared with their family. Amanah never monitors in secret."
+  },
+  "languageSetup": {
+    "title": "Choose your language",
+    "subtitle": "You can change this later in Settings."
+  },
+  "auth": {
+    "createAccountTitle": "Create your account",
+    "createAccountSubtitle": "Set up Amanah for your family.",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "Your name",
+    "email": "Email address",
+    "emailPlaceholder": "name@example.com",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "newPassword": "New password",
+    "passwordHint": "At least 8 characters, with letters and numbers.",
+    "passwordStrength": "Password strength",
+    "strength": {
+      "weak": "Weak",
+      "fair": "Fair",
+      "strong": "Strong"
+    },
+    "acceptTermsLabel": "Accept the terms and privacy policy",
+    "termsPrefix": "I agree to the ",
+    "termsLink": "Terms of Service",
+    "termsAnd": " and ",
+    "privacyLink": "Privacy Policy",
+    "termsSuffix": ".",
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "signInTitle": "Welcome back",
+    "signInSubtitle": "Sign in to continue to Amanah.",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "New to Amanah?",
+    "createLink": "Create an account",
+    "forgotTitle": "Reset your password",
+    "forgotSubtitle": "Enter the email address for your account.",
+    "backToSignIn": "Back to sign in",
+    "checkEmailTitle": "Check your email",
+    "checkEmailBody": "In the full version, a reset link will be sent to {{email}}. Nothing was sent in this preview.",
+    "openReset": "Preview the reset screen",
+    "resetTitle": "Create a new password",
+    "resetSubtitle": "Choose a strong password you have not used before.",
+    "resetButton": "Update password",
+    "resetSuccessTitle": "Reset preview complete",
+    "resetSuccessBody": "In the full version, your password would be updated now. Nothing was changed in this preview.",
+    "continueToSignIn": "Continue to sign in",
+    "previewNotice": "Preview only. No account is created and no data is sent in this version."
+  },
+  "legal": {
+    "termsTitle": "Terms of Service",
+    "privacyTitle": "Privacy Policy",
+    "draftTitle": "Final text coming soon",
+    "draftBody": "The official document will be published before Amanah is released."
+  },
+  "status": {
+    "active": "Active",
+    "needsSetup": "Needs setup",
+    "permissionRequired": "Permission required",
+    "notSupported": "Not supported",
+    "demo": "Demo"
   }
 }
